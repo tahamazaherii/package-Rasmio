@@ -1,6 +1,7 @@
 {
     "name": "tahamazaheri/rasmio",
     "description": "A Laravel package for managing RasmiO tasks",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
