@@ -1,0 +1,20 @@
+{
+    "name": "taha/rasmio",
+    "description": "A Laravel package for managing RasmiO tasks",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Taha\\Rasmio\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Taha\\Rasmio\\RasmioServiceProvider"
+            ]
+        }
+    }
+}
