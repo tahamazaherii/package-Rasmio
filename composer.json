@@ -1,5 +1,5 @@
 {
-    "name": "taha/rasmio",
+    "name": "tahamazaheri/rasmio",
     "description": "A Laravel package for managing RasmiO tasks",
     "type": "library",
     "autoload": {
