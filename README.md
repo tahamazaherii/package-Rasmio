@@ -9,18 +9,18 @@ The `rasmio` package is a powerful tool for managing **RasmiO** tasks in Laravel
 
 To install the package, run the following command in your terminal:
 
-
+```bash
 composer require tahamazaheri/rasmio
+```
 
-
-## after Installation
+## After Installation
 
 
 To install the package, run the following command in your terminal:
 
-
+```bash
 php artisan vendor:publish --tag=rasmio --force
-
+```
 
 ### Key Points:
 1. **Clear instructions:** It includes clear instructions on installation, setup, and usage.
