@@ -1,21 +1,29 @@
 {
-    "name": "tahamazaheri/rasmio",
-    "description": "A Laravel package for managing RasmiO tasks",
-    "license": "MIT",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Taha\\Rasmio\\": "src/"
-        }
-    },
-    "require": {
-        "php": ">=7.4"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Taha\\Rasmio\\RasmioServiceProvider"
-            ]
-        }
+  "name": "tahamazaheri/rasmio",
+  "description": "A Laravel package for managing RasmiO tasks",
+  "license": "MIT",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Taha\\Rasmio\\": "src/"
     }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Taha\\Rasmio\\RasmioServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@php artisan vendor:publish --tag=controllers --force"
+    ],
+    "post-update-cmd": [
+      "@php artisan vendor:publish --tag=controllers --force"
+    ]
+  }
 }
