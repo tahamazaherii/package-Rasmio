@@ -19,11 +19,11 @@
     }
   },
   "scripts": {
-    "post-create-project-cmd": [
-      "@php artisan vendor:publish --tag=controllers --force"
+    "post-install-cmd": [
+        "Taha\\Rasmio\\Installer::controllersInstall"
     ],
     "post-update-cmd": [
-      "Taha\\Rasmio\\Installer::controllersInstall"
+        "Taha\\Rasmio\\Installer::controllersInstall"
     ]
-  }
+}
 }
