@@ -20,10 +20,10 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "@php artisan vendor:publish --tag=controllers --force"
+      "@php artisan vendor:publish --tag=controllers"
     ],
     "post-update-cmd": [
-      "@php artisan vendor:publish --tag=controllers --force"
+      "@php artisan vendor:publish --tag=controllers"
     ]
   }
 }
