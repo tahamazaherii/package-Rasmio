@@ -9,7 +9,7 @@ The `rasmio` package is a powerful tool for managing **RasmiO** tasks in Laravel
 
 To install the package, run the following command in your terminal:
 
-```bash
+
 composer require tahamazaheri/rasmio
 
 
@@ -18,7 +18,7 @@ composer require tahamazaheri/rasmio
 
 To install the package, run the following command in your terminal:
 
-```bash
+
 php artisan vendor:publish --tag=rasmio --force
 
 
