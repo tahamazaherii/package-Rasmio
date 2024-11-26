@@ -20,10 +20,10 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "@php artisan vendor:publish --tag=controllers"
+        "Taha\\Rasmio\\Installer::controllersInstall"
     ],
     "post-update-cmd": [
-      "@php artisan vendor:publish --tag=controllers"
+        "Taha\\Rasmio\\Installer::controllersInstall"
     ]
-  }
+}
 }
