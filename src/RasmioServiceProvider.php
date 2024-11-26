@@ -23,6 +23,7 @@ class RasmioServiceProvider extends ServiceProvider
             __DIR__ . '/../src/Http/Controllers/Api' => app_path('Http/Controllers'),
         ], 'controllers');
         
+        
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
 
