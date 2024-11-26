@@ -1,6 +1,6 @@
-# Rasmio - Laravel Package for Managing RasmiO Tasks
+# Rasmio - Laravel Package for Managing Rasmio Tasks
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://packagist.org/packages/tahamazaheri/rasmio)
+[![Version](https://img.shields.io/badge/version-1.0.7-blue.svg)](https://packagist.org/packages/tahamazaheri/rasmio)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 The `rasmio` package is a powerful tool for managing **RasmiO** tasks in Laravel. It helps you manage these tasks effortlessly within your Laravel project.
