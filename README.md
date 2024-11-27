@@ -22,7 +22,7 @@ To install the package, run the following command in your terminal:
 php artisan vendor:publish --tag=rasmio --force
 ```
 To obtain a token, please visit the following website:
-[https://rasmio.com/about-api/](https://rasmio.com/about-api/) and copy your token in `.env` look like this 
+[https://rasmio.com/about-api/](https://rasmio.com/about-api/) and copy your token and past in `.env` look like this:
 
 
 ```bash
